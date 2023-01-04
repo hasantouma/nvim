@@ -37,6 +37,10 @@ return packer.startup(function(use)
   -- https://github.com/ellisonleao/gruvbox.nvim
   use ("ellisonleao/gruvbox.nvim")
 
+  -- commenting with gc
+  -- https://github.com/numToStr/Comment.nvim
+  use("numToStr/Comment.nvim")
+
   if packer_bootstrap then
     require("packer").sync()
   end
