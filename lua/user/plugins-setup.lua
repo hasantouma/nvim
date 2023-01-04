@@ -53,6 +53,10 @@ return packer.startup(function(use)
   -- https://github.com/nvim-tree/nvim-web-devicons
   use("nvim-tree/nvim-web-devicons")
 
+  -- statusline
+  -- https://github.com/nvim-lualine/lualine.nvim
+  use("nvim-lualine/lualine.nvim")
+
   if packer_bootstrap then
     require("packer").sync()
   end
