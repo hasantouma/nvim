@@ -45,6 +45,10 @@ return packer.startup(function(use)
   -- https://github.com/numToStr/Comment.nvim
   use("numToStr/Comment.nvim")
 
+  -- file explorer
+  -- https://github.com/nvim-tree/nvim-tree.lua
+  use("nvim-tree/nvim-tree.lua")
+
   if packer_bootstrap then
     require("packer").sync()
   end
