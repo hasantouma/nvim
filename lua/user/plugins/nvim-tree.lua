@@ -14,6 +14,7 @@ vim.cmd([[ highlight NvimTreeIndentMarker guifg=#3FC5FF ]])
 
 -- brew installed fonts from following repo:
 -- https://github.com/Homebrew/homebrew-cask-fonts
+-- https://github.com/ryanoasis/nerd-fonts#option-4-homebrew-fonts
 
 -- configure nvim-tree
 nvimtree.setup({
