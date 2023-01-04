@@ -33,6 +33,10 @@ return packer.startup(function(use)
   -- https://github.com/wbthomason/packer.nvim
   use("wbthomason/packer.nvim")
 
+  -- lua functions that many plugins use
+  -- https://github.com/nvim-lua/plenary.nvim
+  use("nvim-lua/plenary.nvim")
+
   -- gruvbox colorscheme
   -- https://github.com/ellisonleao/gruvbox.nvim
   use ("ellisonleao/gruvbox.nvim")
