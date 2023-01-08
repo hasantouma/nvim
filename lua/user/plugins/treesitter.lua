@@ -16,8 +16,8 @@ treesitter.setup({
   -- enable autotagging (w/ nvim-ts-autotag plugin)
   autotag = { enable = true },
   -- ensure these language parsers are installed
+  -- https://github.com/nvim-treesitter/nvim-treesitter#supported-languages
   ensure_installed = {
-    -- https://github.com/nvim-treesitter/nvim-treesitter#supported-languages
     "diff", -- https://github.com/the-mikedavis/tree-sitter-diff
     "fish", -- https://github.com/ram02z/tree-sitter-fish
     "gitcommit", -- https://github.com/gbprod/tree-sitter-gitcommit

@@ -35,9 +35,9 @@ mason_lspconfig.setup({
 
 mason_null_ls.setup({
   -- list of formatters & linters for mason to install
-  -- https://github.com/jose-elias-alvarez/null-ls.nvim/blob/main/doc/BUILTINS.md#ocamlformat
+  -- https://github.com/jose-elias-alvarez/null-ls.nvim/blob/main/doc/BUILTINS.md
   ensure_installed = {
-    "ocamlformat", -- OCaml formatter
+    "ocamlformat", -- https://github.com/jose-elias-alvarez/null-ls.nvim/blob/main/doc/BUILTINS.md#ocamlformat
   },
   -- auto-install configured formatters & linters (with null-ls)
   automatic_installation = true,
