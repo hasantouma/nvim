@@ -24,8 +24,26 @@ List of available formatters & linters:
 
 ## Add syntax highlighting
 
-Add language support to `treesitter.setup()` in `lua/user/plugins/treesitter.lua`
+Add language parser to `treesitter.setup()` in `lua/user/plugins/treesitter.lua`
 
 List of available syntax highlighting:
 `https://github.com/nvim-treesitter/nvim-treesitter#supported-languages`
+
+
+## Troubleshooting
+
+Run `:checkhealth`
+
+### Treesitter commands
+Open `./lua/user/plugins/treesitter.lua`
+The parser for each language should install
+
+Languages will be installed in
+`~/.local/share/nvim/site/pack/packer/start/nvim-treesitter/parser/`
+as `*.so` files
+
+Look at `https://github.com/nvim-treesitter/nvim-treesitter#language-parsers`
+
+Run `:TSUpdate`
+Run `:TSInstall <language_to_install>`
 
