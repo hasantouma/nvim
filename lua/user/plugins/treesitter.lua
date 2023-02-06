@@ -27,6 +27,7 @@ treesitter.setup({
     "ocaml_interface", -- https://github.com/tree-sitter/tree-sitter-ocaml
     "ocamllex", -- https://github.com/atom-ocaml/tree-sitter-ocamllex
     "python", -- https://github.com/tree-sitter/tree-sitter-python
+    "racket", -- https://github.com/6cdh/tree-sitter-racket
     "regex", -- https://github.com/tree-sitter/tree-sitter-regex
   },
   -- auto install above language parsers
